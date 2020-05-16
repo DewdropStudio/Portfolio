@@ -17,3 +17,22 @@ text-align: center;
     border-radius: 25px;
     padding: 10%;
 }
+
+.card-header {
+    text-align: center;
+    background-color: darkseagreen !important;
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.card {
+    max-width: 500px !important;
+    margin: 10%;
+}
+
+.btn-primary {
+    background-color: darkseagreen !important;
+}
