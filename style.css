@@ -35,7 +35,6 @@ text-align: center;
 .card {
     max-width: 500px !important;
     margin: 10%;
-    /* text-align: left !important; */
 }
 
 .btn-primary {
@@ -44,6 +43,7 @@ text-align: center;
 
 #contact {
     text-align: left !important;
+   
 }
 
 /* Portfolio */
@@ -58,7 +58,9 @@ text-align: center;
     /* left: 16.5%;
     right: 16.5%; */
     /* top: 12%; */
+    border-radius: 25px;
 }
+
 
 .col { 
     text-align: center !important;
@@ -71,44 +73,9 @@ text-align: center;
     left: 16.5%;
     right: 16.5%;
 }
-/* Portfolio Section */
-
-/* .overlay {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 325px;
-    width: 200px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgb(141, 144, 145);
-  } 
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
-
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-
-    .text {
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
-
-      .container:hover .overlay {
-        opacity: 1; */
+.list-group-item-secondary {
+    border-radius: 10px;
+}
 
 /* Background */
 body {
@@ -123,9 +90,3 @@ body {
     text-align: center !important;
 }
 
-/* .rounded-circle {
-    float: center !important;
-}
-#about {
-    float: center !important; 
-} */
