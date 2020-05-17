@@ -35,10 +35,15 @@ text-align: center;
 .card {
     max-width: 500px !important;
     margin: 10%;
+    /* text-align: left !important; */
 }
 
 .btn-primary {
     background-color: darkseagreen !important;
+}
+
+#contact {
+    text-align: left !important;
 }
 
 /* Portfolio */
@@ -104,8 +109,23 @@ text-align: center;
 
       .container:hover .overlay {
         opacity: 1; */
+
 /* Background */
 body {
     background-image: url("https://dty8d8u6se0an.cloudfront.net/media/image/thumbnail/450464_VanGogh-Blossom_2000x700.jpg");
     opacity: 90%;
+    text-align: center !important;
 }
+
+/* About Me Section */
+
+#about {
+    text-align: center !important;
+}
+
+/* .rounded-circle {
+    float: center !important;
+}
+#about {
+    float: center !important; 
+} */
